@@ -3,6 +3,11 @@ LevelUpA5E-quickref-UA
 
 Quick reference sheet for LevelUpA5E (UA)
 
+Preview
+==============
+Click [here](https://github.com/Sonder-UA/LevelUpA5E-quickref-UA-/blob/master/quickref.html) for preview
+
+
 
 Icons
 ==============
