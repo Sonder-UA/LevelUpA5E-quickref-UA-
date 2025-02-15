@@ -1,7 +1,7 @@
-dnd5e-quickref
+LevelUpA5E-quickref-UA
 ==============
 
-Quick reference sheet for D&amp;D a5e
+Quick reference sheet for LevelUpA5E (UA)
 
 
 Icons
