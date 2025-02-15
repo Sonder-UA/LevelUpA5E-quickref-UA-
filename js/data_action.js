@@ -1,74 +1,56 @@
 data_action = [
     {
-        title: "Attack",
+        title: "Атака",
         icon: "crossed-swords",
-        subtitle: "Melee or ranged attack",
-        description: "Perform a melee or ranged attack with your weapon",
-        reference: "Adventurer's Guide, pgs. 443-447.",
+        subtitle: "Ближній або дальній бій",
+        description: "Зробіть атаку ближнім або дальнім боєм за допомогою вашої зброї",
+        reference: "Посібник пригодника, с. 443-447.",
         bullets: [
-            "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
-            "When you attack with a weapon that does not have the heavy property and is wielded in one hand, you can use a bonus action to attack with a different dual-wielding weapon in your other hand (see the <i>Offhand attack</i> bonus action).",
-            "You may replace one of your melee attacks with a <i>Basic Maneuver</i>.",
-            "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
-            "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers."
+            "Деякі особливості, такі як <i>Додаткова атака</i> бійця, дозволяють здійснити кілька атак цією дією. Кожна з цих атак є окремим кидком і може бути націлена на різних істот. Ви можете рухатись між атаками.",
+            "Коли ви атакуєте зброєю, що не має властивості важкої і використовується однією рукою, ви можете використовувати бонусну дію для атаки іншою зброєю в іншій руці (див. бонусну дію <i>Атака іншою рукою</i>).",
+            "Ви можете замінити одну зі своїх атак ближнім боєм на <i>Основний маневр</i>.",
+            "Деякі стани дають перевагу в атаці: атаки проти осліплених, паралізованих, окам'янілих, скутих, паралізованих чи непритомних цілей; ближні атаки проти лежачих цілей; атаки невидимими чи схованими нападаючими.",
+            "Деякі стани дають недолік на атаку: атаки проти невидимих чи схованих цілей; дальні атаки проти лежачих цілей; атаки осліпленими, наляканими, отруєними або скутиими нападниками."
         ]
     },
     {
-        title: "Basic Maneuvers",
+        title: "Основні маневри",
         icon: "crossed-swords",
-        subtitle: "Melee basic maneuvers",
-        description: "Perform a basic combat maneuver",
-        reference: "Adventurer's Guide, pgs. 458-459.",
+        subtitle: "Основні маневри в ближньому бою",
+        description: "Виконайте основний бойовий маневр",
+        reference: "Посібник пригодника, с. 458-459.",
         bullets: [
-            "When you successfully use a basic maneuver you also deal basic melee damage. This is equal to 1 + your Strength modifier.",
-            "You cannot use a basic maneuver to activate any features that deal additional damage (such as Sneak Attack or Divine Smite) unless the feature specifically states otherwise",
-            "A maneuver sometimes forces a target to make a saving throw to resist its effects. The saving throw DC is calculated as follows: Maneuver DC = 8 + your proficiency bonus + your Strength or Dexterity modifier Combat maneuvers are nonmagical.",
+            "Коли ви успішно використовуєте основний маневр, ви також завдаєте основного ближнього пошкодження. Це рівно 1 + ваш модифікатор Сили.",
+            "Ви не можете використовувати основний маневр для активації будь-яких особливостей, що завдають додаткової шкоди (як, наприклад, Атака з підступу або Божественний Удар), якщо тільки це не зазначено в описі особливості.",
+            "Маневр іноді змушує ціль зробити рятувальний кидок для протидії його ефектам. DC рятувального кидка розраховується наступним чином: Маневр DC = 8 + ваш бонус до майстерності + ваш модифікатор Сили або Ловкості. Бойові маневри не є магічними."
         ]
     },
     {
-        title: "Disarm",
+        title: "Роззброєння",
         icon: "drop-weapon",
-        subtitle: "Basic Combat Maneuver",
-        description: " attempt to knock an item or weapon from a creature's hand",
-        reference: "Adventurer's Guide, pg. 458",
+        subtitle: "Основний бойовий маневр",
+        description: "Спробуйте вибити предмет або зброю з руки істоти",
+        reference: "Посібник пригодника, с. 458",
         bullets: [
-            "The target must be within your reach and be holding an item (either carried or wielded)",
-            "The target makes a Strength or Dexterity saving throw against your maneuver DC.",
-            "On a failure, you deal basic melee damage and the target drops the item in its space",
-            "The target has advantage if it is larger than you or holding the item with two or more hands, and a target smaller than you has disadvantage."
+            "Ціль повинна бути в межах вашого досяжності та тримати предмет (неважливо, носить чи використовує)",
+            "Ціль робить рятувальний кидок Сили або Ловкості проти вашого DC маневру.",
+            "При невдачі, ви завдаєте основного ближнього пошкодження і ціль скидає предмет на своєму місці.",
+            "Ціль має перевагу, якщо вона більша за вас або тримає предмет двома або більше руками, і ціль, що менша за вас, має недолік."
         ]
     },
     {
-        title: "Grab On",
+        title: "Захопити",
         icon: "mountain-climbing",
-        subtitle: "Basic Combat Maneuver",
-        description: "Attempt to grab on to a creature",
-        reference: "Adventurer's Guide, pg. 458",
+        subtitle: "Основний бойовий маневр",
+        description: "Спробуйте захопити істоту",
+        reference: "Посібник пригодника, с. 458",
         bullets: [
-            "Attempt to grab on to a creature two or more size categories larger than you and climb or jump onto it's back.",
-            "Make a Strength or Dexterity saving throw against the creature's maneuver DC to cling to or balance upon its body",
-            "On a success, you move into the creature's space and can move upon its body as if it is difficult terrain.",
-            "While grabbing onto a larger creature, you gain advantage on attack rolls against it.",
-            "A creature can can also use an action or replace one of its attacks on its turn to try to dislodge you, such as shaking you loose or bashing you against a wall, forcing you to make a Strength or Dexterity saving throw against its maneuver DC or fall prone into the nearest space adjacent to the creature, taking its basic melee damage in the process.",
-            "If the creature chooses to roll over in order to dislodge you, it becomes prone, but you have disadvantage on the saving throw to hang on."
-        ]
-    },
-    {
-        title: "Grapple",
-        icon: "grab",
-        subtitle: "Basic Combat Maneuver",
-        description: "Attempt to grab a creature or wrestle with it",
-        reference: "Adventurer's Guide, pg. 458-459",
-        bullets: [
-            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-            "Using at least one free hand, you try to seize the target by making a grapple check, The target makes a Strength or Dexterity saving throw against your maneuver DC.",
-            "The target makes a Strength or Dexterity saving throw against your maneuver DC.",
-            "On a failure, you deal basic melee damage and the target becomes grappled (see Appendix A: Conditions on page 616).",
-            "While grappled, a creature can use its action to attempt to escape. It must succeed on a Strength or Dexterity saving throw against your maneuver DC.",
-            "When you move, you can drag or carry the grappled creature with you. When you do so, your Speed is halved, unless the creature's weight is within your carrying capacity and you are not encumbered by bulky items.",
-            "You can use the Grapple maneuver to try to free another grappled or restrained creature. The creature grappling or restraining the target makes a Strength saving throw against your maneuver DC. If it fails the saving throw, the grappled or restrained creature is freed. Additionally, you may move the freed creature 5 feet in any direction."
-        ]
+            "Спробуйте захопити істоту, яка в два чи більше разів більша за вас, і залізти або стрибнути на її спину.",
+            "Зробіть рятувальний кидок Сили або Ловкості проти DC маневру істоти, щоб вчепитися або утримувати баланс на її тілі.",
+            "У разі успіху, ви потрапляєте в простір істоти та можете рухатись по її тілу, як по важкій місцевості.",
+            "Поки ви тримаєтесь за більшу істоту, ви маєте перевагу на атаки проти неї.",
+            "Істота також може використовувати свою дію або замінити одну з атак на своєму ході, щоб спробувати скинути вас, наприклад, струсивши вас або вдаривши об стіну, змушуючи вас робити рятувальний кидок Сили або Ловкості проти її DC маневру або впасти на землю в найближчому просторі біля істоти, отримуючи основне ближнє пошкодження в процесі.",
+            "Якщо істота вибирає перевернутися, щоб скинути вас, вона стає лежачою, але ви маєте недолік на рятувальний кидок, щоб утриматися."
     },
     {
         title: "Knockdown",
